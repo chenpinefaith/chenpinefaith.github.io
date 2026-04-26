@@ -420,3 +420,35 @@ textarea,
         /* 使用系统默认光标 */
     }
 }
+
+/* ===== 通用毛玻璃基础样式 ===== */
+.card-widget {
+    background: linear-gradient(-45deg, #e2c1ffee, #ffb6e6ee, #c9a9ffee, #ffb3fdee) !important;
+}
+
+/* 个人信息Follow me按钮 */
+#aside-content>.card-widget.card-info>#card-info-btn {
+    background-color: #7019c2f8;
+    border-radius: 8px;
+}
+
+/* ===== 动画定义 ===== */
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* ===== 暗夜模式适配 ===== */
+[data-theme="dark"] .card-widget {
+    background: rgba(45, 10, 61, 0.7) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
