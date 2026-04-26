@@ -38,6 +38,17 @@ html[data-theme="dark"] #page-header #post-info {
 body {
     background-image: url(themes/butterfly/source/img/default_top_img.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
+}
+
+#footer,
+#page-header.post-bg,
+#page-header.page-bg {
+    background: transparent !important;
+}
+
+#page-header.post-bg::before,
+#page-header.page-bg::before {
+    background-color: transparent !important;
 }
