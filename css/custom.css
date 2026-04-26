@@ -447,3 +447,12 @@ textarea,
     background: rgba(45, 10, 61, 0.7) !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
 }
+
+/*侧边卡片的透明度 */
+:root {
+    --card-bg: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+    --card-bg: rgba(255, 255, 255, 0.2);
+}
