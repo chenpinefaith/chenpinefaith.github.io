@@ -1,3 +1,18 @@
+/* 设置带侧边距的固定背景图片 */
 #web_bg {
     background-attachment: fixed !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* 添加侧边距 */
+    background-position: center center;
+    background-size: cover;
+    /* 设置背景图片的宽度，使其不占满全屏 */
+    width: calc(100% - 40px);
+    /* 调整这个值来控制侧边距大小 */
+    margin: 0 auto;
+    /* 居中显示 */
 }
