@@ -10,13 +10,7 @@
     z-index: -1;
     /* 将其置于所有内容之下 */
 }
-/* 让内容区域在背景之上，但允许背景透过 */
-.main-container,
-.post-content {
-    position: relative;
-    z-index: 1;
-    /* 确保内容在背景之上 */
-}
+
 /* 
  * Moonlight Cursor 月光光标效果
  * 
