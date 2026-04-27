@@ -1,4 +1,7 @@
-
+#web_bg {
+    background: url("themes/butterfly/source/img/background.jpg") no-repeat center center;
+    background-size: cover;
+}
 /* 
  * Moonlight Cursor 月光光标效果
  * 
